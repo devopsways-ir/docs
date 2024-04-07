@@ -1,41 +1,30 @@
-# Website
+# راهکارهای دوآپس
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+این پروژه کد منبع مربوط به پایگاه تحت وب devopsways.ir را نگهداری می‌کند. این پایگاه با استفاده از [Docusaurus](https://docusaurus.io/) ایجاد شده است.
 
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
+## اجرای محلی پروژه
 
 ```
-$ yarn start
+$ npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+این دستور وابستگی‌های پروژه را نصب می‌کند.
 
-### Build
+```
+$ npm start
+```
+
+این دستور سرور توسعه محلی برای شما اجرا و آدرس مربوط را در مرورگر باز می‌کند.
+
+## خروجی پروداکشن
 
 ```
 $ yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+این دستور یک محتوای ثابت را در پوشه `build` قرار می‌دهد و در هر سرویس میزبانی محتوای ثابت قابل میزبانی و ارائه است.
 
-### Deployment
 
-Using SSH:
+## استقرار
 
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+این پروژه با استفاده از GitHub Actions روی سرویس Github Pages قرار می‌گیرد.
