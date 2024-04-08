@@ -41,7 +41,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'روش‌های دوآپس',
+      title: 'روش‌های دوآپس  (انتشار آزمایشی)',
       items: [
         {
           type: 'docSidebar',
