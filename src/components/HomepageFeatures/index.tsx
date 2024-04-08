@@ -10,32 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'روشمند',
+    Svg: require('@site/static/img/methodical.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        در این مستندات به جای این که به صرف نحوه نصب و تنظیم ابزارها پرداخته شود
+        به روش‌ها و فرآیندهایی پرداخته می‌شود که دغدغه‌های مختلف سازمان را برطرف می کند و 
+        به نحوه استفاده از خدمات دهندگان و به کارگیری ابزارهای لازم نیز پرداخته می‌شود.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'نوآور',
+    Svg: require('@site/static/img/innovation.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        در این مستندات همواره سعی می‌شود که جدیدترین نوآوری حوزه دوآپس استفاده شود
+        و روش‌های سنتی مورد نقد قرار گیرد.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'جامعه محور',
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        این مستندات به همت جامعه‌ای از فعالان حوزه دوآپس ایران تدوین و راهبری می‌شود
+        و مالکیت خصوصی ندارد.
+        اشخاص و شخصیت‌های حقوقی می‌توانند با مشارکت یا کمک‌های مالی از این جامعه حمایت کنند.
       </>
     ),
   },
